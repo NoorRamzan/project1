@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif; 
+}
+.navbar{
+    height: 60px;
+    width: 1300;
+    background-color: rgb(248, 235, 235) ;
+    display: inline block;
+    padding: 15px;
+    font-weight:600;
+    
+    
+}
+.logo,.menu{
+  display: inline-block ;
+  
+}
+ .logo{
+    padding: 12px;
+}
+.menu{
+    margin:0px 380px ;
+    padding: 34px;
+      
+} 
+
+.menu,a{
+    
+    padding: 0px 0px 5px 0px ;
+    color: rgb(54, 52, 54);
+    text-decoration: none;
+    font-weight: 45px;
+    font-size: 20px;
+    margin-left: 40px;
+     /* margin: 0px 24px;   */
+}
+#home1{
+    background-color: hwb(51 21% 20% / 0.884);
+    width: 1600px;
+    padding: 21px;
+} 
+/* section 2 */
+.box{
+    background-image: url('./1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;   
+}
+.content{
+   text-align: center;
+   justify-content: center;
+   padding: 300px;
+   font-weight: 900;
+   
+
+}
+.btn{
+    height: 130px;
+    width: 700px;
+    background-color: white;
+    align-items: center;
+    padding-right: 0px 34px;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 5px 40px;
+
+}
+.btn1{
+    align-items: center;
+    margin: 34px;
+    
+     
+}
+/* section 3 */
+
+.box1{
+   
+    
+    display: flex;
+    margin: 45px 45px;
+    
+      
+}
+ .parent{
+     display: flex;
+    padding-left:350px; 
+    
+     
+
+    
+ }  
+ .box2{   
+     background-image: url('./box2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+     border-radius: 200px;
+     height: 250px;
+     width: 250px; 
+     margin: auto;
+             
+}
+.box3{
+   
+    background-image: url('box1.jpg');
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 150px;
+        
+} 
+
+/* section 4 */
+
+.box4{
+    background-image: url('./box4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 94%;
+    margin-top: 120px;
+    padding: 39px;
+    
+}
+.card{
+    height: 280px;
+    width: 490px ;
+    border-radius: 18px;
+    background-color: rgb(245, 246, 248);
+    margin: 110px;
+    border-top: 1rem solid red;
+}
+.card1{
+  background-color: 1rem;
+}
+.time{
+    margin:23px; 
+    color: rgb(106, 108, 109);
+}
+
+/* section 5 */
+
+.box5{
+    padding: 67px;
+}
+
+.shop{
+   display: flex;
+   padding-bottom: 50px;
+  
+   
+}
+.shop1{
+    /* background-image: url('./living.jpg'); */
+    text-align: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    width: 325px;
+    border-radius: 12px;
+    margin: 33px;
+    text-align-last:right;
+}
+.shop2
+{
+     /* background-image: url('./kitchen.jpg');  */
+     text-align: center;
+     justify-content: center;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    width: 325px;
+    border-radius: 12px;
+    margin: 33px;
+}
+.shop3{
+    /* background-image: url('./children.jpg'); */
+    text-align: center;
+    justify-content: center;
+   background-position: center;
+    background-size: cover;
+    height: 320px;
+    width: 325px;
+    border-radius: 12px;
+    margin: 33px;
+}
+ /* section 6 */
+  .box6{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    display: flex;
+   
+   
+  }
+   .heading{
+   justify-content: center;
+   text-align: center;
+   display: flex;
+    
+   font-size: 23px;
+   font-weight: 23px;
+   color: white;
+   
+
+ } 
+.div{
+    display: flex;
+    margin:145px ;
+    padding-left: 12px;
+    padding-right: 12px;
+    float: right;
+    gap: 120px;
+}
